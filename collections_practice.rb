@@ -47,16 +47,6 @@ def kesha_maker(strings)
 end
 
 
-  # s_names = []
-  # array.each_with_index.collect{|element, index| 
-  # if element.index == 1
-  #   s_names << element
-  # else 
-  #   s_names << element + 's'
-  # end
-  # }
-  # return s_names
-
 def add_s(array) 
   array.collect do |word|
     if array[1] != word
