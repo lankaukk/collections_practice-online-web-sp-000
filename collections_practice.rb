@@ -30,14 +30,13 @@ end
 
 def swap_elements(array)
 #   1.) create a temp1 variable, and store array[1] in it
-a = array[1]
+temp1 = array[1]
 # 2.) create a temp2 variable, and store array[2] in it
-b = array[2]
+temp2 = array[2]
 # 3.) set array[2] to the value in temp1
-b = a
+array[2] = temp1
 # 4.) set array[1] to the value in temp2
-a = b
-# 5.) return array
+array[1] = temp2
 array
 end
 
