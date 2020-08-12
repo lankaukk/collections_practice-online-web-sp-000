@@ -29,12 +29,18 @@ def sum_array(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b, index|
-    if a.index == 1 &&
-      b.index == 2
-      b <=> a
-    end
-  end
+#   1.) create a temp1 variable, and store array[1] in it
+# 2.) create a temp2 variable, and store array[2] in it
+# 3.) set array[2] to the value in temp1
+# 4.) set array[1] to the value in temp2
+# 5.) return array
+  
+  # array.sort do |a, b, index|
+  #   if a.index == 1 &&
+  #     b.index == 2
+  #     b <=> a
+  #   end
+  # end
 end
 
 def kesha_maker(strings)
