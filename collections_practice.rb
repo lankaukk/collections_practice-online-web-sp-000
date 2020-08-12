@@ -60,10 +60,10 @@ end
 def add_s(array) 
   s_names =[]
   array.collect do |i|
-    when i[1] 
-      s_names << i 
-    else 
+    if i[1] != i
       s_names << i + 's'
+    else 
+      s_names << i 
     end
   end
   return s_names
