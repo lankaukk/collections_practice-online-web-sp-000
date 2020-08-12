@@ -29,13 +29,9 @@ def sum_array(array)
 end
 
 def swap_elements(array)
-#   1.) create a temp1 variable, and store array[1] in it
 temp1 = array[1]
-# 2.) create a temp2 variable, and store array[2] in it
 temp2 = array[2]
-# 3.) set array[2] to the value in temp1
 array[2] = temp1
-# 4.) set array[1] to the value in temp2
 array[1] = temp2
 array
 end
