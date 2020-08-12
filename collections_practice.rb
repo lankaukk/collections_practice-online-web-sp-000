@@ -39,13 +39,6 @@ b = a
 a = b
 # 5.) return array
 array
-  
-  # array.sort do |a, b, index|
-  #   if a.index == 1 &&
-  #     b.index == 2
-  #     b <=> a
-  #   end
-  # end
 end
 
 def kesha_maker(strings)
